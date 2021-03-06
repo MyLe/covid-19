@@ -1,0 +1,99 @@
+/* Structure */
+.app-container {
+  background-color: whitesmoke;
+}
+.example-container {
+  position: relative;
+  min-height: 200px;
+}
+
+.example-table-container {
+  position: relative;
+  max-height: 400px;
+  overflow: auto;
+  background-color: white;
+}
+
+table {
+  width: 100%;
+}
+
+.example-loading-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 56px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-rate-limit-reached {
+  color: #980000;
+  max-width: 360px;
+  text-align: center;
+}
+
+/* Column Widths */
+.mat-column-number,
+.mat-column-state {
+  max-width: 64px;
+}
+
+.mat-column-created {
+  max-width: 124px;
+}
+
+.example-form {
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+
+.example-full-width {
+  width: 500px;
+ 
+}
+
+.searchBtn {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  height: 45px;
+  width: 135px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 15px 0 15px;
+  margin-left: 15px;
+  border: 1px solid red;
+  margin-top: 15px;
+}
+
+.mat-form-field-infix {
+  border: 1px solid #c6c6c6;
+  background-color: white;
+  height: 30px;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 14px 10px 0 9px;
+}
+
+.hide { display: none; }
+
+.mat-footer-row {
+  border: none;
+  width: fit-content;
+}
+.mat-form-field-label{
+  color: red;
+}
+
+.search-label {
+  color: red; 
+  margin-left: 22%;
+  padding-right: 15px;
+}
